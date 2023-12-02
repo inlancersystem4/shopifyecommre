@@ -1,0 +1,221 @@
+@media (max-width:990px) {
+    .home-new-product.product-list .product-item .product-img {
+        height: 320px;
+    }
+
+    .blog-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-wrapper .posted-blog {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .blog-wrapper .blog-sidebar .recent-post-blog {
+        display: flex;
+        align-items: flex-start;
+        padding-bottom: 34px;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 18px;
+        column-gap: 32px;
+        padding-top: 32px;
+    }
+
+    .blog-wrapper .blog-sidebar .recent-post-blog li {
+        margin-top: 0;
+    }
+
+    .blog-wrapper .blog-sidebar .section-title {
+        text-align: center;
+    }
+
+    .blog-wrapper .blog-sidebar {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .blog-wrapper .posted-blog .blog-write-content {
+        margin-top: 0;
+    }
+
+
+    .blog-list .blog {
+        width: 50%;
+    }
+
+    .contact-form {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+
+    .collections-list .collection {
+        width: 50%;
+    }
+
+    .product-list.column-4 .product-item {
+        width: 50%;
+    }
+
+    .product-list-page.product-list_grid.product-list .product-item .product-img {
+        height: 380px;
+    }
+
+
+    .home-blogs .blog:nth-child(1) {
+        width: 100%;
+    }
+
+    .home-blogs .blog {
+        width: 50%;
+        padding: 20px;
+    }
+
+
+}
+
+
+@media (max-width:768px) {
+    .product-list {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        padding-bottom: 24px;
+    }
+
+    .product-list.column-3 .product-item {
+        min-width: 320px;
+    }
+
+    .product-list_grid.product-list .product-item .product-img {
+        height: 240px;
+    }
+
+    .product-list.column-4 .product-item {
+        min-width: 250px;
+    }
+
+    .productwrapper {
+        flex-wrap: wrap;
+    }
+
+    .productwrapper .product-img,
+    .productwrapper .product-details {
+        width: 100%;
+    }
+
+
+    .productwrapper .product-img,
+    .productwrapper .product-details {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    .blog-wrapper .posted-blog {
+        width: 100%;
+    }
+
+    .blog-wrapper .posted-blog .blog-write-content .blog-content-header {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .blog-wrapper .posted-blog .blog-write-content {
+        max-width: 90%;
+    }
+
+    .blog-wrapper .posted-blog .blog-img {
+        padding-top: 470px;
+    }
+
+
+    .blog-list .blog {
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+
+    .collections-list .collection .collection-img {
+        padding-top: 320px;
+    }
+
+    .product-list-page.product-list_grid.product-list .product-item {
+        min-width: auto;
+    }
+
+    .product-list-page.product-list {
+        flex-wrap: wrap;
+    }
+
+    .list-filters {
+        flex-direction: column-reverse;
+        gap: 14px;
+        justify-content: center;
+    }
+
+    .company-policy-pages-content {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .home-blogs .blog {
+        width: 100%;
+        padding: 20px;
+    }
+
+    
+
+}
+
+
+@media (max-width:640px) {
+
+    .collections-list .collection .collection-img {
+        padding-top: 420px;
+    }
+
+    .collections-list .collection {
+        width: 100%;
+    }
+
+    .product-list-page.product-list_grid.product-list .product-item .product-img {
+        height: 276px;
+    }
+
+    .product-list-page.product-list_grid.product-list .product-item {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .home-blogs .blog {
+        padding: 10px;
+    }
+
+
+    .home-testimonials {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .home-testimonials .testimonial {
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width:440px) {
+    .collections-list .collection .collection-img {
+        padding-top: 320px;
+    }
+
+    .product-list-page.product-list_grid.product-list .product-item .product-img {
+        height: 232px;
+    }
+
+}
